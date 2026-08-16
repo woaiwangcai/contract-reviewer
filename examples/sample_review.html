@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+  <title>虚构示例合同 - 合同审查报告</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211b;
+      --muted: #5e6862;
+      --line: #d8ddd9;
+      --soft: #f3f6f4;
+      --accent: #087f5b;
+      --accent-dark: #075d45;
+      --warning: #a34613;
+    }
+    * { box-sizing: border-box; }
+    html { background: #eef1ef; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #fff;
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.72;
+    }
+    header {
+      padding: 30px max(24px, calc((100vw - 1040px) / 2));
+      color: #fff;
+      background: #17211b;
+      border-bottom: 5px solid var(--accent);
+    }
+    header p { margin: 0; color: #cbd5cf; font-size: 14px; }
+    header h1 { margin: 4px 0 0; font-size: 26px; line-height: 1.3; }
+    main {
+      width: min(100% - 48px, 1040px);
+      margin: 38px auto 72px;
+    }
+    h1, h2, h3 { line-height: 1.35; }
+    main > h1 { font-size: 30px; margin: 0 0 28px; }
+    h2 {
+      margin: 36px 0 16px;
+      padding-bottom: 8px;
+      font-size: 21px;
+      border-bottom: 1px solid var(--line);
+    }
+    h3 { margin: 28px 0 12px; font-size: 17px; }
+    p, ul, ol { margin: 0 0 16px; }
+    a { color: var(--accent-dark); }
+    table {
+      width: 100%;
+      margin: 16px 0 28px;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      padding: 11px 12px;
+      text-align: left;
+      vertical-align: top;
+      border: 1px solid var(--line);
+      overflow-wrap: anywhere;
+    }
+    th { background: var(--soft); font-weight: 700; }
+    tbody tr:nth-child(even) { background: #fafcfb; }
+    blockquote {
+      margin: 20px 0;
+      padding: 12px 18px;
+      color: var(--muted);
+      background: var(--soft);
+      border-left: 4px solid var(--accent);
+    }
+    code {
+      padding: 2px 5px;
+      background: var(--soft);
+      border: 1px solid var(--line);
+    }
+    footer {
+      padding: 22px max(24px, calc((100vw - 1040px) / 2));
+      color: var(--muted);
+      background: var(--soft);
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+    }
+    @media (max-width: 720px) {
+      header { padding: 24px 20px; }
+      header h1 { font-size: 21px; }
+      main { width: calc(100% - 32px); margin-top: 28px; overflow-x: auto; }
+      main > h1 { font-size: 25px; }
+      table { min-width: 720px; }
+    }
+    @media print {
+      html, body { background: #fff; }
+      header { padding: 18mm 16mm 10mm; }
+      main { width: auto; margin: 12mm 16mm; }
+      footer { padding: 8mm 16mm; }
+      table, blockquote { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p>CONTRACT REVIEWER</p>
+    <h1>虚构示例合同 - 合同审查报告</h1>
+  </header>
+  <main>
+    <h1>合同审查结果</h1>
+<h2>1. 合同概览</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>合同类型</td>
+<td>数据分析平台技术服务合同</td>
+</tr>
+<tr>
+<td>合同主体</td>
+<td>甲方：澄明科技（示例）有限公司；乙方：远岭数据（示例）有限公司</td>
+</tr>
+<tr>
+<td>交易目的</td>
+<td>乙方向甲方交付数据分析平台并提供一年技术服务</td>
+</tr>
+<tr>
+<td>关键金额</td>
+<td>合同总价人民币 120,000 元</td>
+</tr>
+<tr>
+<td>合同期限</td>
+<td>签署后 30 日内交付；技术服务期一年</td>
+</tr>
+</tbody>
+</table>
+<h2>2. 风险摘要</h2>
+<p>合同对甲方数据的使用授权过宽，同时将乙方累计赔偿责任限制为已收服务费的 10%，可能导致数据被超范围利用且重大损失无法获得充分赔偿。验收、解除退款和数据返还机制也需要进一步明确。</p>
+<h2>3. 风险明细</h2>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>等级</th>
+<th>条款位置</th>
+<th>合同证据</th>
+<th>风险说明</th>
+<th>处理建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R-01</td>
+<td>高</td>
+<td>第五条 数据使用</td>
+<td>“乙方有权将甲方数据用于产品优化及其他商业目的”</td>
+<td>授权范围没有限定数据类型、使用期限、匿名化标准和第三方共享边界，可能造成商业数据被超范围利用。</td>
+<td>将用途限定为履行本合同所必需；未经甲方书面同意不得用于训练、营销或向第三方提供；补充删除和返还义务。</td>
+</tr>
+<tr>
+<td>R-02</td>
+<td>高</td>
+<td>第七条 责任限制</td>
+<td>“乙方累计赔偿责任不超过已收服务费的 10%”</td>
+<td>责任上限明显偏低，且未对数据泄露、知识产权侵权、故意或重大过失设置例外。</td>
+<td>提高一般责任上限，并明确数据安全、保密、侵权及故意或重大过失不适用该上限。</td>
+</tr>
+<tr>
+<td>R-03</td>
+<td>中</td>
+<td>第三条 验收</td>
+<td>“甲方三日内未提出异议视为验收合格”</td>
+<td>验收期限较短，且没有验收标准、测试方法和整改复验机制，容易产生默认验收争议。</td>
+<td>增加验收清单和测试标准，将期限调整为合理工作日，并约定整改及复验流程。</td>
+</tr>
+<tr>
+<td>R-04</td>
+<td>中</td>
+<td>第八条 解除</td>
+<td>“合同解除后已付款项不予退还”</td>
+<td>未区分解除原因，乙方违约导致解除时甲方仍可能无法追回未履行部分费用。</td>
+<td>按解除原因和实际履行比例结算；乙方违约时退还未履行部分费用并承担违约责任。</td>
+</tr>
+</tbody>
+</table>
+<h2>4. 缺失或待确认事项</h2>
+<ul>
+<li>未明确平台停止服务或合同终止后的数据导出、返还和删除期限。</li>
+<li>未提供附件中的功能清单和验收指标，需要确认附件是否与正文同时签署。</li>
+<li>需确认甲方数据是否包含个人信息或其他受限制数据。</li>
+</ul>
+<h2>5. 优先修改建议</h2>
+<ol>
+<li>收窄数据使用授权并补充数据全生命周期管理要求。</li>
+<li>调整责任上限并增加不适用责任限制的例外情形。</li>
+<li>用可验证的功能清单和测试标准替代默认验收安排。</li>
+<li>根据解除原因和履行比例设置退款与结算机制。</li>
+<li>明确合同终止后的数据迁移、返还、删除和证明义务。</li>
+</ol>
+  </main>
+  <footer>AI 生成内容仅用于辅助审查，重要结论应结合交易背景进行人工复核。</footer>
+</body>
+</html>
