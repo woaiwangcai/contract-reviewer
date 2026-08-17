@@ -10,7 +10,7 @@
 
 ---
 
-**Contract Reviewer** 专为追求**可靠性与审查深度**的法律科技场景设计。它将复杂格式的 DOCX 合同文件转化为标准结构化 Markdown，结合工业级审查协议（Skill），接入任意兼容标准接口的大模型，最终自动化交付可继续二次编辑的 Markdown 报告与**开箱即用、支持离线阅读和直接打印的单文件 HTML 报告**。
+**Contract Reviewer** 专为追求**可靠性与审查深度**的法律科技场景设计。它将复杂格式的 DOCX 合同文件转化为标准结构化 Markdown，结合专业合同审查协议（Skill），接入任意兼容标准接口的大模型，最终自动化交付可继续二次编辑的 Markdown 报告与**开箱即用、支持离线阅读和直接打印的单文件 HTML 报告**。
 
 ![HTML report preview](docs/report-preview.png)
 
